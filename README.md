@@ -1,3 +1,5 @@
+![Screenshot of app](https://raw.githubusercontent.com/edperez91/class-roster-via-api/main/Screen%20Shot%202022-11-22%20at%2010.20.58%20AM.png)
+
 # Class Roster via our API data
 
 ## What Is This? 
