@@ -1,14 +1,24 @@
 /* My Styles */
+@import url(css.supreme.css);
+
 body {
     background-color: #deede4;
-  }
+}
+
+.gallery {
+    font-family: 'Supreme-Extrabold';
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;;
+}
 
 .gallery figure {
-  display: inline-block;
-  margin: 1em 1em 1em 1em;
-  padding: 1em;
-  border: 0;
-  vertical-align: top;
+    display: inline-block;
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    vertical-align: top;
+    border-radius: 5%;
+    background-color: #99c985;
 }
 
 img {
