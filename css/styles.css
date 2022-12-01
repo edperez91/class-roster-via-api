@@ -2,14 +2,25 @@
 @import url(css.supreme.css);
 
 body {
-    background-color: #deede4;
+    background: rgb(153, 201, 133);
+    background: linear-gradient(0deg, rgba(153, 201, 133, 0.831) 0%, rgba(255, 255, 255, 1) 100%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Supreme-Variable';
+    font-size: 4em;
+    font-weight: 800;
+    color: rgba(153, 201, 133, 0.831);
 }
 
 .gallery {
     font-family: 'Supreme-Extrabold';
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 800;
     color: #ffffff;
-    text-align: center;;
+    text-align: center;
+    ;
 }
 
 .gallery figure {
@@ -18,7 +29,8 @@ body {
     padding: 1em;
     vertical-align: top;
     border-radius: 5%;
-    background-color: #99c985;
+    background-color: #525b88b7;
+    box-shadow: 2px 2px 5px 0 rgba(11, 53, 23, 0.485);
 }
 
 img {
