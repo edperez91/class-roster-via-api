@@ -3,24 +3,26 @@
 
 body {
     background: rgb(153, 201, 133);
-    background: linear-gradient(0deg, rgba(153, 201, 133, 0.831) 0%, rgba(125, 193, 147, 0.296) 100%);
+    background: linear-gradient(0deg, rgba(153, 201, 133, 0.804) 0%, rgba(255,255,255,1) 56%);
     text-align: center;
 }
+
 
 h1 {
     font-family: 'Supreme-Variable';
     font-size: 4em;
     font-weight: 800;
-    color: #525b88e7;
+    color: #99c985;
+    text-transform: uppercase;
+
 }
 
 .gallery {
     font-family: 'Supreme-Extrabold';
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     color: #ffffff;
     text-align: center;
-    ;
 }
 
 .gallery figure {
@@ -38,23 +40,9 @@ img {
     height: 300px;
     border-radius: 5%;
     object-fit: cover;
+    box-shadow: 2px 2px 2px 0 rgba(11, 53, 23, 0.298);
 }
 
 .gallery figure:hover {
-    animation: vibrate 0.5s;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes vibrate {
-    0% { transform: rotate(0deg); }
-    10% { transform: rotate(-1deg); }
-    20% { transform: rotate(1deg); }
-    30% { transform: rotate(0deg); }
-    40% { transform: rotate(1deg); }
-    50% { transform: rotate(-1deg); }
-    60% { transform: rotate(0deg); }
-    70% { transform: rotate(-1deg); }
-    80% { transform: rotate(1deg); }
-    90% { transform: rotate(0deg); }
-    100% { transform: rotate(-1deg); }
-  }
+    transform: scale(1.1);
+}
