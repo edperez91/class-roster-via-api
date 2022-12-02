@@ -1,4 +1,4 @@
-![Screenshot of app](https://raw.githubusercontent.com/edperez91/class-roster-via-api/main/Screen%20Shot%202022-11-22%20at%2010.20.58%20AM.png)
+![Screenshot of app](https://raw.githubusercontent.com/edperez91/class-roster-via-api/main/roster_SS.png)
 
 # Class Roster via our API data
 
