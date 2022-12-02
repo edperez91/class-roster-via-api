@@ -3,7 +3,7 @@
 
 body {
     background: rgb(153, 201, 133);
-    background: linear-gradient(0deg, rgba(153, 201, 133, 0.804) 0%, rgba(255,255,255,1) 56%);
+    background: linear-gradient(0deg, rgba(153, 201, 133, 0.804) 0%, rgba(255,255,255,1) );
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ h1 {
     padding: 1em;
     vertical-align: top;
     border-radius: 5%;
-    background-color: #525b88b6;
+    background-color: #0a1d7e58;
     box-shadow: 2px 2px 5px 0 rgba(11, 53, 23, 0.485);
     color: #ffffff;
 }
@@ -50,4 +50,11 @@ img {
 
 img:hover{
     filter: grayscale(0%);
+}
+
+figure p{
+    font-family: 'Supreme-Variable';
+    font-size: 1.5em;
+    font-weight: 800;
+    margin: 6px
 }
