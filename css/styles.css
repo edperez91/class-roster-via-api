@@ -14,7 +14,6 @@ h1 {
     font-weight: 800;
     color: #99c985;
     text-transform: uppercase;
-
 }
 
 .gallery {
@@ -31,8 +30,9 @@ h1 {
     padding: 1em;
     vertical-align: top;
     border-radius: 5%;
-    background-color: #525b8842;
+    background-color: #525b88b6;
     box-shadow: 2px 2px 5px 0 rgba(11, 53, 23, 0.485);
+    color: #ffffff;
 }
 
 img {
@@ -41,8 +41,13 @@ img {
     border-radius: 5%;
     object-fit: cover;
     box-shadow: 2px 2px 2px 0 rgba(11, 53, 23, 0.298);
+    filter: grayscale(100%);
 }
 
 .gallery figure:hover {
     transform: scale(1.1);
+}
+
+img:hover{
+    filter: grayscale(0%);
 }
